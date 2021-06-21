@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+#optionPage {
+    display: grid;
+    height: 100vh;
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 110%;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding-top: 3%;
+    font-size: 50px;
+    font-family: 'Nerko One', Verdana, Arial;
+    color: white;
+}
+
+.optionsBtn {
+    padding: 12px;
+    background-color: rgba(113, 210, 235, 0.781);
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+}
+
+.optionsBtn:hover {
+    font-weight: bold;
+}
+
+.ready {
+    font-size: 30px;
+    color: white;
+}
+
+.formLine {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+}

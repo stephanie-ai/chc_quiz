@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+#homePage {
+    display: grid;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 110%;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding-top: 3%;
+    font-size: 50px;
+    font-family: 'Nerko One', Verdana, Arial;
+    color: white;
+}
+
+.startBtn {
+    background-color: rgb(238, 111, 227);
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 39%;
+}
+
+.startBtn:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rulesBtn {
+    background-color: rgba(113, 210, 235, 0.781);
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: none;
+    width: 120px;
+    padding: 20px;
+}
+
+#rulesBtn:hover {
+    font-weight: bold;
+    cursor: pointer;
+}

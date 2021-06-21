@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.answer {
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(113, 210, 235, 0.5);
+    border-style: none;
+    margin: 5px;
+}
+
+#questionComponent {
+    padding: 20px;
+    height: 100%;
+    display: inline-block;
+}
+
+.answerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.turn {
+    color: white;
+    font-size: 20px;
+}
