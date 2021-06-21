@@ -3,7 +3,7 @@
 *We are proud to present you our version of the popular trivia question game.*
 *Whether by yourself or with a couple of friends, pick a category and start playing!*
 
-![](public/over.gif)
+<!-- ![](public/over.gif) -->
 
 ## Installation
 
@@ -51,14 +51,3 @@ HTML, CSS, JavaScript, React, Redux, Jest, Enjyme, Netlify
 - Challenges
     - Have a delay between choosing a question and loading the next one
     - Increase test coverage above 60%
-
-
-## Contributors
-
-In no specific order:
-
-[StylianosThomas](https://github.com/StylianosThomas),
-[kail0n](https://github.com/kail0n),
-[FopeA6](https://github.com/FopeA6),
-[stephanie-ai](https://github.com/stephanie-ai),
-[OVacaru](https://github.com/OVacaru)
