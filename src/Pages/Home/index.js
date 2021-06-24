@@ -13,7 +13,7 @@ class Home extends Component {
     render() {
         return (
             <div id="homePage">
-                <h1> C Hoare & Co Quiz </h1>
+                <h1 className="chcTitle"> C Hoare & Co Quiz </h1>
                 <Link to='/options' className="startBtn"> START </Link> 
             </div>
         );

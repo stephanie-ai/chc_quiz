@@ -11,7 +11,7 @@ class Game extends Component {
         return (
             
             <div id="gamePage">
-                <h1> The Over Reacting Quiz </h1>
+                <h1 className="chcTitle"> C Hoare & Co Quiz </h1>
                 {this.props.questions.length > 0 && this.props.questionID === this.props.questions.length ? 
                     <Results winner={this.props.players}/> :
                     <div id="gameArea">

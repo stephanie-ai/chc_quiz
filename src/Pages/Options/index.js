@@ -60,7 +60,7 @@ class Options extends Component {
             <>
             { this.props.questions.length > 1 ? this.startGame() :
                 <div id="optionPage">
-                    <h1> The Over Reacting Quiz </h1>
+                    <h1 className="chcTitle"> C Hoare & Co Quiz </h1>
                     <form onSubmit={this.handleSubmit}>
                     <div>
                         <div id="optionsForm">
