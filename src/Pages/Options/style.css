@@ -8,18 +8,13 @@
 #optionPage {
     display: grid;
     height: 100vh;
-    /* background-image: url("./background.jpg"); */
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: 100% 110%;
-    background-attachment: fixed;
 }
 
 h1 {
     padding-top: 3%;
     font-size: 50px;
     font-family: 'Nerko One', Verdana, Arial;
-    color: white;
+    /* color: white; */
 }
 
 .optionsBtn {
