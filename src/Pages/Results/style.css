@@ -11,14 +11,7 @@
     flex-direction: column;
 }
 
-h1 {
-    padding-top: 3%;
-    font-size: 50px;
-    font-family: 'Nerko One', Verdana, Arial;
-    color: white;
-}
-
 #playAgain {
-    color: white;
+    /* color: white; */
     font-size: 40px;
 }

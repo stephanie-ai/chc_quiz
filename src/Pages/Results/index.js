@@ -25,7 +25,7 @@ class Results extends Component {
     render () {
         return(
             <div id="resultsPage">
-                <h1>Results</h1>
+                <h1 className="chcTitle">Results</h1>
                 <Player playerStats={this.props.winner}/>
                  {this.displayWinner()}
                 <Link id="playAgain" to='/'> Play Again! </Link>

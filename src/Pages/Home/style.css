@@ -1,17 +1,10 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    text-align: center;
-    align-items: center;
-}
-
 #homePage {
     display: grid;
     height: 100vh;
 }
 
 .chcTitle {
-    font-size: 50px;
+    font-size: 30px;
     color: black;
 }
 
