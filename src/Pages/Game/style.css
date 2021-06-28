@@ -3,12 +3,6 @@
     height: 100vh;
 }
 
-h1 {
-    padding-top: 3%;
-    font-size: 30px;
-    font-family: 'Nerko One', Verdana, Arial;
-}
-
 #gameArea {
     margin-top: -15%;
     margin-left: 15%;
