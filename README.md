@@ -1,7 +1,4 @@
-# OverReacting Trivia Quiz
-
-*We are proud to present you our version of the popular trivia question game.*
-*Whether by yourself or with a couple of friends, pick a category and start playing!*
+# CHC Quiz Game
 
 <!-- ![](public/over.gif) -->
 
@@ -31,23 +28,3 @@ HTML, CSS, JavaScript, React, Redux, Jest, Enjyme, Netlify
 - Users should be able to choose the level and topic for their quiz game
     - Added the option for 3 difficulty levels
     - Increased the number of categories available to choose from
-
-
-## Future Features
-
-*How could anyone improve perfection?*
-
-- More visually pleasing interface has been statistically proven to provide an increased entertainment value, so who are we to disagree? 
-- Add the ability to mix categories to get a more diverse and unique gameplay experience!
-- Reconfigure the application so that it can actually give the winner a cookie!
-
-
-## Wins & Challenges
-
-- Wins
-    - Succeeding all our goals and deploy a working project within a week! *Woohoo!*
-    - Increase test coverage above 60%
-
-- Challenges
-    - Have a delay between choosing a question and loading the next one
-    - Increase test coverage above 60%
