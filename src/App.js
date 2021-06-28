@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Header } from './layout';
 import { Home, Options, Game, Results } from './Pages';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div id="app">
+        <Header />
         <Router>
           <Switch>
             <Route exact path ='/' component={Home} />
