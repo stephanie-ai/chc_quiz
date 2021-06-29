@@ -27,7 +27,6 @@ class Results extends Component {
             <div>
                 <div id="resultsPage">
                   <Player playerStats={this.props.winner}/>  
-                
                 <div>
                 {/* <h1>Results</h1> */}
                     {this.displayWinner()}
