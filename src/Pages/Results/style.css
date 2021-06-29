@@ -1,10 +1,25 @@
 #resultsPage {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
+    /* display: flex;
+    height: 100vh;
+    flex-direction: column; */
+    margin-left: 10%;
+    width: 80%;
+    display: grid;
+    display: 100vh;
+    grid-template-columns: auto auto;
 }
 
 #playAgain {
-    /* color: white; */
-    font-size: 40px;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(124, 155, 124);
+    border: 6px solid rgb(182, 158, 20);
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#playAgain:hover {
+    font-weight: bold;
+    cursor: pointer;
 }

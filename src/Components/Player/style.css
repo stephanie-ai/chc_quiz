@@ -1,17 +1,10 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    text-align: center;
-    align-items: center;
-}
-
 #playerTable {
     color: white;
     font-size: 20px;
 }
 
 th, td {
-    border: 1px solid rgb(230, 117, 220);
+    border: 2px solid rgb(124, 155, 124);
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 }

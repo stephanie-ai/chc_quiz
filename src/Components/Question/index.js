@@ -42,6 +42,7 @@ class Question extends Component {
         return (
             <div id="questionComponent">
                 <p className="turn"> It is {playerData.stats.name}'s turn!</p>
+                <br></br>
                 <h1>{ questionData.question } </h1> <br/>
                 {questionData.type === "boolean" ? 
                     <form className="answerForm">

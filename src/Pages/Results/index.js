@@ -24,11 +24,18 @@ class Results extends Component {
 
     render () {
         return(
-            <div id="resultsPage">
-                <h1 className="chcTitle">Results</h1>
-                <Player playerStats={this.props.winner}/>
-                 {this.displayWinner()}
+            <div>
+                <div id="resultsPage">
+                  <Player playerStats={this.props.winner}/>  
+                
+                <div>
+                {/* <h1>Results</h1> */}
+                    {this.displayWinner()}
+                    <br></br>
+                    <br></br>
                 <Link id="playAgain" to='/'> Play Again! </Link>
+                </div>
+                </div>
             </div>
         );
     };
