@@ -7,6 +7,12 @@
     margin: 5px;
 }
 
+.answer:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+
 #questionComponent {
     padding: 20px;
     height: 100%;
