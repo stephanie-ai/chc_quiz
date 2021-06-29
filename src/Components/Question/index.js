@@ -43,7 +43,7 @@ class Question extends Component {
             <div id="questionComponent">
                 <p className="turn"> It is {playerData.stats.name}'s turn!</p>
                 <br></br>
-                <h1>{ questionData.question } </h1> <br/>
+                <h2>{ questionData.question } </h2> <br/>
                 {questionData.type === "boolean" ? 
                     <form className="answerForm">
                         <input type="submit" className="answer" value="True" onClick={this.handleSubmit}/> <br/>
