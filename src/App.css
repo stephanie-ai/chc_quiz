@@ -11,6 +11,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+input, select {
+    border-radius: 30px;
+    padding: 6px;
+    border: 2px solid rgb(124, 155, 124);
+    outline: none;
+}
+
 /* background-color: rgb(124, 155, 124); */
 /* border-bottom: 6px solid rgb(182, 158, 20); */
 /* 

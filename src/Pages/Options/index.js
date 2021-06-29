@@ -66,7 +66,7 @@ class Options extends Component {
                         <div className="formLine">
                             <label htmlFor="playerName"> Who is playing? </label><br/>
                         {addMorePlayers} <br/>
-                            <button onClick={this.addPlayer}> {this.state.totalPlayers >= 4 ? "Player Limit Reached!": "Add New Player"}</button>
+                            <button id="addNew" onClick={this.addPlayer}> {this.state.totalPlayers >= 4 ? "Player Limit Reached!": "Add New Player"}</button>
                         </div>
                         <br/>
                         <div className="formLine">

@@ -15,15 +15,26 @@
     font-weight: bold;
 }
 
-.ready {
+/* .ready {
     font-size: 30px;
     color: white;
-}
+} */
 
 .formLine {
-    padding: 15px;
     color: black;
     font-weight: bold;
-    padding: 20px;
-    font-size: 20px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+#addNew {
+    background-color: rgb(216, 213, 213);
+    border: 1px solid rgb(182, 158, 20);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+#addNew:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
