@@ -1,4 +1,4 @@
-/* import fonts here  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,9 +7,9 @@
     align-items: center;
 }
 
-/* #app {
-    background-color: rgb(109, 145, 109);
-} */
+#app {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* background-color: rgb(124, 155, 124); */
 /* border-bottom: 6px solid rgb(182, 158, 20); */
