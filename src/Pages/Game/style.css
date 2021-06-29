@@ -1,6 +1,6 @@
 #gamePage {
     display: grid;
-    height: 100vh;
+    /* height: 50vh; */
 }
 
 #gameArea {
@@ -8,4 +8,16 @@
     width: 80%;
     display: grid;
     grid-template-columns: auto auto;
+    /* position: fixed; */
+}
+
+#playerStats {
+    position: fixed;
+    margin-top: 100px;
+}
+
+#question {
+    position: fixed;
+    margin-left: 180px;
+    width: 75%;
 }
