@@ -10,3 +10,11 @@
 /* #app {
     background-color: rgb(109, 145, 109);
 } */
+
+/* background-color: rgb(124, 155, 124); */
+/* border-bottom: 6px solid rgb(182, 158, 20); */
+/* 
+:root {
+    --background-color: rgb(124, 155, 124);
+    --border: 6px solid rgb(182, 158, 20);
+} */

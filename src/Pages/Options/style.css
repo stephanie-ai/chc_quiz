@@ -5,8 +5,10 @@
 
 .optionsBtn {
     padding: 12px;
-    border: 2px solid blue;
-    color: black;
+    border: 6px solid rgb(182, 158, 20);
+    background-color: rgb(124, 155, 124);
+    border-radius: 30px;
+    color: white;
 }
 
 .optionsBtn:hover {
