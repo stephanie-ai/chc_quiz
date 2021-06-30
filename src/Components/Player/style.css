@@ -5,7 +5,7 @@
 }
 
 th, td {
-    border: 2px solid rgb(124, 155, 124);
+    border: 2px solid var(--bg-color);
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 }

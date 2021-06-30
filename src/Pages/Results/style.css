@@ -12,7 +12,7 @@
 #playAgain {
     color: white;
     font-size: 24px;
-    background-color: rgb(124, 155, 124);
+    background-color: var(--bg-color);
     border: 6px solid rgb(182, 158, 20);
     border-radius: 30px;
     padding: 10px;
