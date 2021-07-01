@@ -5,6 +5,8 @@ import { mSTP } from '../../Pages/Game';
 import './style.css';
 
 class Question extends Component {
+    
+    // correctAnswer   
 
     handleSubmit = e => {
         e.preventDefault();
@@ -49,7 +51,7 @@ class Question extends Component {
                         <input type="submit" className="answer" value="True" onClick={this.handleSubmit}/> <br/>
                         <input type="submit" className="answer" value="False" onClick={this.handleSubmit}/> <br/>
                     </form> :
-                    <form className="anwerForm">
+                    <form className="answerForm">
                         <input type="submit" className="answer" value={ randomAnswer[0] } onClick={this.handleSubmit} /> <br/>
                         <input type="submit" className="answer" value={ randomAnswer[1] } onClick={this.handleSubmit} /> <br/>
                         <input type="submit" className="answer" value={ randomAnswer[2] } onClick={this.handleSubmit} /> <br/>
