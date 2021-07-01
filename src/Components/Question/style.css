@@ -1,5 +1,5 @@
 .answer {
-    width: 300px;
+    width: 350px;
     font-size: 16px;
     border-radius: 5px;
     background-color: rgba(113, 210, 235, 0.5);
@@ -31,4 +31,5 @@
 
 #qTitle {
     height: 50px;
+    font-weight: bold;
 }

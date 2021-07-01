@@ -5,8 +5,6 @@ import { mSTP } from '../../Pages/Game';
 import './style.css';
 
 class Question extends Component {
-    
-    // correctAnswer   
 
     handleSubmit = e => {
         e.preventDefault();
@@ -41,6 +39,7 @@ class Question extends Component {
         const questionData = this.props.currentQuestion;
         const allAnswers = [questionData.correct_answer, questionData.incorrect_answers[0], questionData.incorrect_answers[1], questionData.incorrect_answers[2]];
         const randomAnswer = this.shuffleArray(allAnswers);
+
         return (
             <div id="questionComponent">
                 <p className="turn"> It is {playerData.stats.name}'s turn!</p>
