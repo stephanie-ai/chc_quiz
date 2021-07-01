@@ -4,7 +4,7 @@
 }
 
 .optionsBtn {
-    padding: 12px;
+    padding: 18px;
     border: 6px solid rgb(182, 158, 20);
     background-color: var(--bg-color);
     border-radius: 30px;
@@ -13,12 +13,8 @@
 
 .optionsBtn:hover {
     font-weight: bold;
+    cursor: pointer;
 }
-
-/* .ready {
-    font-size: 30px;
-    color: white;
-} */
 
 .formLine {
     color: black;
