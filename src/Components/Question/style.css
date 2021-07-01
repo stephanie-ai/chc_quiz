@@ -1,5 +1,5 @@
 .answer {
-    width: 50%;
+    width: 300px;
     font-size: 16px;
     border-radius: 5px;
     background-color: rgba(113, 210, 235, 0.5);
@@ -27,4 +27,8 @@
 
 .turn {
     font-size: 16px;
+}
+
+#qTitle {
+    height: 50px;
 }
