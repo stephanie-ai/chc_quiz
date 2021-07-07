@@ -71,7 +71,7 @@ class Options extends Component {
                         <br/>
                         <div className="formLine">
                             <label htmlFor="questions"> How many questions? </label>
-                            <input type="number" name="questions" min="1" max="24" defaultValue="8"/>
+                            <input type="number" name="questions" min="1" max="50" defaultValue="10"/>
                         </div>
                         <br/>
                         <div className="formLine">
